@@ -2,7 +2,7 @@
 #准备POSCAR 放infile/input中
 #第10，13,14为上层，请检查POSCAR
 #vaspkit 生成KPOINTS INCAR POTCAR
-#检查POTCAR是否对了 grep -i title POTCAR
+#检查POTCAR是否对了 grep -i VRHFIN POTCAR
 #修改inter.sh/inter1.sh
 #sh inter.sh 生成不同的d到 poscar/hc中
 #提交任务 sh sub
