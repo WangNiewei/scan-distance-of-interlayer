@@ -1,0 +1,10 @@
+
+f(x) = a * x**2 + b * x + c
+fit f(x) 'hh' via a, b, c
+
+min_x = -b / (2*a)
+min_y = a * min_x**2 + b * min_x + c
+print "拟合最小值的坐标：(", min_x, ", ", min_y, ")"
+
+exit
+
